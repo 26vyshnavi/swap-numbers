@@ -1,0 +1,22 @@
+def swap(a,b):
+    a,b = b,a
+    print("after swap : ")
+    print("first no = ",a)
+    print("second no = ",b)
+a = input("\n enter the first no : ")
+b = input("\n enter the second no : ")
+print("before swap : ")
+print("first no = ",a)
+print("second no = ",b)
+swap(a,b)
+
+output:-
+
+enter the first no : 23
+enter the second no : 52
+before swap : 
+first no =  23
+second no =  52
+after swap : 
+first no =  52
+second no =  23
